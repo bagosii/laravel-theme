@@ -28,11 +28,11 @@ and install with `composer update`
 
 Add the service provider in `app/config/app.php`, `Providers` array:
 
-    'igaster\laravelTheme\themeServiceProvider',
+    'bagosii\laravelTheme\themeServiceProvider',
 
 also edit the `Facades` array and add:
 
-    'Theme'  => 'igaster\laravelTheme\Facades\Theme',
+    'Theme'  => 'bagosii\laravelTheme\Facades\Theme',
 
 Almost Done. You only need to publish configuration file to your application with
 
