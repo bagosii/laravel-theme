@@ -1,4 +1,4 @@
-<?php namespace igaster\laravelTheme;
+<?php namespace bagosii\laravelTheme;
 
 use Illuminate\View\FileViewFinder;
 
