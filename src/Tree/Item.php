@@ -1,4 +1,4 @@
-<?php namespace igaster\laravelTheme\Tree;
+<?php namespace bagosii\laravelTheme\Tree;
 
 class Item {
 	public $children = [];
