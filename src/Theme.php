@@ -1,4 +1,4 @@
-<?php namespace igaster\laravelTheme;
+<?php namespace bagosii\laravelTheme;
 
 class Theme extends Tree\Item {
     public $name;
