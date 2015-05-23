@@ -1,4 +1,4 @@
-<?php namespace igaster\laravelTheme\Facades;
+<?php namespace bagosii\laravelTheme\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -11,6 +11,6 @@ class Theme extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'igaster.themes';
+        return 'bagosii.themes';
     }
 }
