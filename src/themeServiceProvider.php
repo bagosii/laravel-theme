@@ -1,4 +1,4 @@
-<?php namespace igaster\laravelTheme;
+<?php namespace bagosii\laravelTheme;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Config;
