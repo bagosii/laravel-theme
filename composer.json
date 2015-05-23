@@ -1,9 +1,9 @@
 {
-    "name": "igaster/laravel-theme",
+    "name": "bagosii/laravel-theme",
 	"description": "Laravel 5 Themes: Asset & Views folder per theme. Theme inheritance. Blade integration and more...",
     "keywords": ["themes", "views", "assets", "blade", "laravel-5", "package"],
     "license": "MIT",
-    "homepage": "https://github.com/igaster/laravel-theme",
+    "homepage": "https://github.com/bagosii/laravel-theme",
     "authors": [
         {
             "name": "Giannis Gasteratos",
