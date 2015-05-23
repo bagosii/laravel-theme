@@ -13,7 +13,7 @@ class themeServiceProvider extends ServiceProvider {
 		| Bind in IOC
 		|--------------------------------------------------------------------------*/
 
-		$this->app->bindShared('igaster.themes', function(){
+		$this->app->bindShared('bagosii.themes', function(){
 			return new Themes();
 		});
 
@@ -31,14 +31,14 @@ class themeServiceProvider extends ServiceProvider {
 		$this->app->bindShared('view.finder', function($app)
 		{
 			$paths = $app['config']['view.paths'];
-			return new \igaster\laravelTheme\themeViewFinder($app['files'], $paths);
+			return new \bagosii\laravelTheme\themeViewFinder($app['files'], $paths);
 		});
 
 		/*--------------------------------------------------------------------------
 		| Initialize Themes
 		|--------------------------------------------------------------------------*/
 
-		$Themes = $this->app->make('igaster.themes');
+		$Themes = $this->app->make('bagosii.themes');
 
 		/*--------------------------------------------------------------------------
 		|   Load Themes from theme.php configuration file
