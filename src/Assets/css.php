@@ -1,4 +1,4 @@
-<?php namespace igaster\laravelTheme\Assets;
+<?php namespace bagosii\laravelTheme\Assets;
 
 class css extends abastractAsset {
 
